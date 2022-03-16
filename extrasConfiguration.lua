@@ -4,7 +4,7 @@ extrasConfig = {
         commande = { active = false, name = "extras" } 
     },
 
-    maximumExtrasCount = 10,
+    maximumExtrasCount = 9, -- (Pas plus de 9)
     allowedVehicles = {
         'police',
         'ambulance'
