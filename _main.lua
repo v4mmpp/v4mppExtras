@@ -48,9 +48,10 @@ function openExtraMenu()
 
                     if (pInVeh) then
                         local pVeh = GetVehiclePedIsIn(pPed, false)
-
+                        
+                        ---@private
                         ---@type function menuExtrasDrawer
-                        menuExtrasDrawer = function()
+                        local menuExtrasDrawer = function()
                             for i=1, extrasConfig.maximumExtrasCount do
                                 if (DoesExtraExist(pVeh, i)) then
                                     haveExtras = true;
