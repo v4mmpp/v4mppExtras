@@ -1,3 +1,6 @@
+---@public
+---@class extrasConfig
+---@author RevengeBack_
 extrasConfig = {
     control = { 
         key = { active = true, key = "f3" },
