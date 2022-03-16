@@ -78,7 +78,7 @@ function openExtraMenu()
                         end
                     else
                         haveExtras = false;
-                        RageUI.Separator("~r~Vous devez etre a l'interieur d'un vehicule~s~")
+                        RageUI.Separator("~r~Vous devez être a l'interieur d'un véhicule~s~")
                     end
                 end)
 
@@ -95,7 +95,7 @@ if (extrasConfig.control.commande.active) then
 end
 
 if (extrasConfig.control.key.active) then
-    Keys.Register(extrasConfig.control.key.key:lower(), extrasConfig.control.key.key:upper(), "Ouvrir menu extras", function()
+    Keys.Register(extrasConfig.control.key.key:lower(), extrasConfig.control.key.key:upper(), "Ouvrir menu extras véhicule", function()
         openExtraMenu();
     end)
 end
