@@ -2,6 +2,7 @@
 A simple FiveM vehicles extras menu.
 
 #
+- Standalone resource
 - Fast configuration
 - RageUI
 #
