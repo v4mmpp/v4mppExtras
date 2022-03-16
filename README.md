@@ -1,5 +1,5 @@
 # v4mpExtras
-A simple FiveM vehicles extras menu.
+A simple FiveM vehicles extras menu, available for free.
 
 #
 - Standalone resource
