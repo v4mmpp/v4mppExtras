@@ -9,9 +9,10 @@ extrasConfig = {
 
     maximumExtrasCount = 9, -- (9 max);
     allowedVehicles = {
-        active = false, vehicles = {
+        active = false, vehicles = { -- Vehicles model names
             'police',
-            'ambulance'
+            'ambulance',
+            'buffalo',
         }
     };
 };
