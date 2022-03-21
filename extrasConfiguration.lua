@@ -1,5 +1,5 @@
 ---@public
----@class extrasConfig
+---@type table extrasConfig
 ---@author RevengeBack_
 extrasConfig = {
     control = { 
